@@ -1,7 +1,7 @@
 // Code your solution in this file!
 
 // Checks distance from 42 (street)
-// Use ternary to avoid negative number outcomes
+// Use ternary to avoid negative number outcomes. Our location is 42 (42nd st)
 function distanceFromHqInBlocks(distance){
     return distance > 42 ? distance - 42 : 42 - distance
 }
